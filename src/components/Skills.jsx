@@ -5,7 +5,6 @@ import Tailwind from '../assets/tailwindcss.svg'
 import Node from '../assets/node.svg'
 import Express from '../assets/express.svg'
 import Mongo from '../assets/mongo.svg'
-import Github from '../assets/github.svg'
 
 const Skills = () => {
   return (
@@ -32,30 +31,30 @@ const Skills = () => {
               </div>
               <div className='m-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={ReactIcon} alt="HTML icon"></img>
-                <p className='my-4'>React</p>
+                <p className='my-4'>REACT</p>
               </div>
               <div className='m-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon"></img>
-                <p className='my-4'>Tailwind</p>
+                <p className='my-4'>TAILWIND</p>
               </div>
             </div>
           </div>
-          
+
           <div>
             <p className='text-xl font-semibold p-2'>Back-End</p>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
               <div className='m-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Node} alt="HTML icon"></img>
-                <p className='my-4'>NodeJS</p>
+                <p className='my-4'>NODE JS</p>
               </div>
               <div className='m-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto invert' src={Express} alt="HTML icon"></img>
-                <p className='my-4'>Express</p>
+                <p className='my-4'>EXPRESS JS</p>
               </div>
               <div className='m-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Mongo} alt="HTML icon"></img>
-                <p className='my-4'>MongoDB</p>
+                <p className='my-4'>MONGO DB</p>
               </div>
             </div>
           </div>
