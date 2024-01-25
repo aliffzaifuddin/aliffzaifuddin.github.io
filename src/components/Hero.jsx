@@ -13,7 +13,7 @@ const Hero = () => {
           <div>
             <p className='text-white'>Welcome to my coding journey</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-slate-300'>Aliff Zaifuddin</h1>
-            <h2 className='text-3xl sm:text-4xl font-bold text-slate-200'>A Passionate Software Developer</h2>
+            <h2 className='text-xl sm:text-4xl font-bold text-slate-200'>A Passionate Software Developer</h2>
           </div>
         </div>
         <p className='text-gray-300 py-4 max-w-[700px]'>

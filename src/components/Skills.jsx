@@ -15,7 +15,7 @@ const Skills = () => {
           <p className='text-4xl font-bold inline border-b-4'>Skills</p>
           <p className='py-4'>These are the tech stack I have worked before</p>
         </div>
-
+        {/* Skills container */}
         <div className='w-full px-4 grid sm:grid-cols-2 gap-8'>
           <div>
             <p className='text-xl font-semibold p-2'>Front-End</p>
