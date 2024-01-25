@@ -1,5 +1,6 @@
-
 import { HiArrowNarrowRight } from "react-icons/hi";
+import profilePic from '../assets/profile-pic.jpg'
+import {Link} from 'react-scroll'
 
 const Hero = () => {
   return (
@@ -7,13 +8,22 @@ const Hero = () => {
 
       {/* Container */}
       <div className='max-w-[900px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-white'>Hi my name is </p>
-        <h1 className='text-4xl sm:text-7xl font-bold text-slate-300'>Aliff Zaifuddin</h1>
-        <h2 className='text-3xl sm:text-4xl font-bold text-slate-200'>I am a Full stack Developer</h2>
-        <p className='text-gray-300 py-4 max-w-[700px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus cupiditate sit quidem perferendis. Dolore perferendis ratione iure voluptas eligendi explicabo? Accusamus nemo laborum, autem ipsam obcaecati rerum soluta magnam?</p>
+        <div className="max-w-[750px] md:flex md:items-center">
+          <img src={profilePic} alt="profile-pic" className="rounded-full w-60 h-60 mx-10 my-5 sm:m-5" />
+          <div>
+            <p className='text-white'>Welcome to my coding journey</p>
+            <h1 className='text-4xl sm:text-7xl font-bold text-slate-300'>Aliff Zaifuddin</h1>
+            <h2 className='text-3xl sm:text-4xl font-bold text-slate-200'>A Passionate Software Developer</h2>
+          </div>
+        </div>
+        <p className='text-gray-300 py-4 max-w-[700px]'>
+          Embark on my coding journey where I transform concepts into robust solutions. Join me in the world of coding, one line at a time, crafting exceptional digital experiences together
+        </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 m-2 flex items-center hover:bg-slate-500'>
-            View Work 
+          <Link to="work" smooth={true} duration={500}>
+            View work
+          </Link>
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 hover:' />
             </span>

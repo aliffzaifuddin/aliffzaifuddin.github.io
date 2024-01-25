@@ -44,12 +44,12 @@ const Skills = () => {
             <p className='text-xl font-semibold p-2'>Back-End</p>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-              <div className='m-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+              <div className='m-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
                 <img className='w-20 mx-auto' src={Node} alt="HTML icon"></img>
                 <p className='my-4'>NODE JS</p>
               </div>
               <div className='m-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto invert' src={Express} alt="HTML icon"></img>
+                <img className='w-20 mx-auto' src={Express} alt="HTML icon"></img>
                 <p className='my-4'>EXPRESS JS</p>
               </div>
               <div className='m-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
