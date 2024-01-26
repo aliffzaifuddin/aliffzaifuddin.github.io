@@ -3,7 +3,7 @@ import RealEstate from '../assets/realestate.jpg'
 
 const Work = () => {
   return (
-    <div name="work" className='w-full h-max md:h-5/6 text-gray-300 bg-[#0a192f] pt-20'>
+    <div name="work" className='w-full h-max md:h-[90%] text-gray-300 bg-[#0a192f] pt-20'>
       <div className='max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4'>Work</p>
