@@ -3,15 +3,16 @@ import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa"
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import {Link} from 'react-scroll'
+import { IoIosArrowDropup } from "react-icons/io";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-6 bg-[#0a192f] text-gray-300'>
       <div>
-        <h1 className='w-[200px] text-xl'>Aliff Zaifuddin</h1>
+        <h1 className='w-[200px] text-xl hover:scale-110 duration-300'>Aliff Zaifuddin</h1>
       </div>
 
       {/* Menu */}
@@ -103,6 +104,12 @@ const Navbar = () => {
         </ul>
       </div>
 
+      <div className='fixed bottom-0 right-0 text-2xl mr-5 mb-8 hover:scale-110 duration-300 animate-bounce '>
+        <Link to="hero" smooth={true} duration={500}>
+          <IoIosArrowDropup />
+        </Link>
+      </div>
+      
     </div>
   )
 }

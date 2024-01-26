@@ -16,7 +16,7 @@ const About = () => {
             <p>Welcome to my corner of the internet! I am Aliff, a software developer with a passion for crafting elegant solutions</p>
           </div>
           <div>
-            <p>I specialize in creating user-friendly interfaces and tackling complex problems, covering areas from web development to software engineering. My coding journey began just a year ago when I started self-learning through various online resources. Working on diverse projects has not only improved my skills but also broadened my perspective. From modest beginnings to exciting challenges, my coding journey is a continuous evolution toward becoming a skilled developer.</p>
+            <p>My coding journey began just a year ago when I started self-learning through various online resources. Working on diverse projects has not only improved my skills but also broadened my perspective. From modest beginnings to exciting challenges, my coding journey is a continuous evolution toward becoming a skilled developer. During my free time, I love to play any sports or being stuck at home with video games</p>
           </div>
         </div>
       </div>

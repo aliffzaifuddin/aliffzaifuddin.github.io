@@ -8,7 +8,7 @@ import Mongo from '../assets/mongo.svg'
 
 const Skills = () => {
   return (
-    <div name="skills" className='w-full h-max text-gray-300 bg-[#0a192f] pt-20'>
+    <div name="skills" className='w-full h-max md:h-5/6 text-gray-300 bg-[#0a192f] pt-20'>
       {/* container */}
       <div className='max-w-[900px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
