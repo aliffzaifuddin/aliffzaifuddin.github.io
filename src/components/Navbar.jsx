@@ -104,7 +104,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className='fixed bottom-0 right-0 text-2xl mr-5 mb-8 hover:scale-110 duration-300 animate-bounce '>
+      <div className='fixed bottom-0 right-0 text-2xl mr-5 mb-8 hover:scale-110 duration-300 animate-bounce cursor-pointer'>
         <Link to="hero" smooth={true} duration={500}>
           <IoIosArrowDropup />
         </Link>
