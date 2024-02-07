@@ -50,28 +50,28 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>
+      <ul className={!nav ? 'fixed left-[-100%]' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center ease-in-out duration-500'}>
+        <li className='py-6 text-4xl border-b border-gray-600 '>
           <Link onClick={handleClick} to="hero" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl border-b border-gray-600'>
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl border-b border-gray-600'>
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl border-b border-gray-600'>
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl border-b border-gray-600'>
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -104,7 +104,8 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className='fixed bottom-0 right-0 text-2xl mr-5 mb-8 hover:scale-110 duration-300 animate-bounce cursor-pointer'>
+      {/* Arrow back to top */}
+      <div className={ !nav ? 'fixed bottom-0 right-0 text-2xl mr-5 mb-8 hover:scale-110 duration-300 animate-bounce cursor-pointer' : 'hidden' }>
         <Link to="hero" smooth={true} duration={500}>
           <IoIosArrowDropup />
         </Link>
